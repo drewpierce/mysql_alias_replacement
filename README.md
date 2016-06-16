@@ -10,7 +10,7 @@ Note, however, that the OP had a string such as ",abc,def,pdq,xyz," so you will 
 
 For the OP in that question, it was for changing foreign language names to the Dutch equivalent, I believe.
 
-The problem was his non-extendable table design. That was changed to a normalized one, that is also extendable.
+The problem was his non-extendable table design. That was changed to a normalized one, that is also extendable. Also, each set at the level of table `materials2` can have it turned to active=true or active=false for use during your testing. Only the active ones are affected. That can be extended by you to the child table `materials2_alias` if you wish. At that level. But I had to put the brakes on somewhere.
 
 Always avoid CSV data saved in one column, or table designs where one thinks, oh, I can always add another column. Please see an answer of mine here http://stackoverflow.com/a/32620163 .
 
