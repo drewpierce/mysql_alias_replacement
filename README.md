@@ -27,8 +27,6 @@ rik_04_developers_debug_reports.sql - A script to capture some things I was runn
 
 rik_05_actual_workflow.sql - A workflow top to bottom on how to test. I hope it is clear (I doubt it)
 
-Any reference to the line numbers in a file "rik_02b" mentioned in the "rik_05" file is relevant to a file I had to email him due to potential proprietary stuff. So those line numbers won't match up to the rik_02c given here on github.
-
-
 visual_touchcount_depletion.JPG - A visual showing how the rowcounts cease after 3 or 4 runs.
 
+Any reference to the line numbers in a file "rik_02b" mentioned in the "rik_05" file is relevant to a file I had to email him due to potential proprietary stuff. So those line numbers won't match up to the rik_02c given here on github.
